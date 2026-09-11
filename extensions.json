@@ -1,9 +1,43 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/.github/schemas/gallery.schema.json",
   "version": "1.0",
-  "generatedAt": "2026-08-31T14:00:56Z",
-  "extensionCount": 80,
+  "generatedAt": "2026-09-04T18:00:44Z",
+  "extensionCount": 82,
   "extensions": [
+    {
+      "id": "1morr.inkling",
+      "title": "Inkling Notes",
+      "shortDescription": "Take notes without leaving Command Palette. They are plain Markdown files in a folder you choose.",
+      "description": "Inkling lets you take notes inside PowerToys Command Palette. Summon the palette, type Inkling, and pick Quick capture. Type your thought, press Enter, and the note is saved.\n\nYour notes are ordinary Markdown files in a folder you pick. Open them in any editor, sync them with OneDrive or any other cloud drive, or drop your existing .md files into the folder and they show up in the list right away.\n\n- Quick capture: type a title and press Enter. Add ;; after the title to write the body in the same line.\n- Notes list: search, preview, edit, copy the body, open a note in your editor, show it in File Explorer, or delete it to the Recycle Bin.\n- Scratchpad: a single note that is always there, for anything that needs no title. It opens with whatever you left in it last time.\n- Plain Markdown: front matter fields Inkling does not know are left untouched, so it coexists with Obsidian, VS Code, and anything else that reads .md.\n- Keyboard-first: the common actions have shortcuts, and Ctrl+K shows the rest.\n- Optional: assign an alias or a global hotkey to Quick capture to jump straight in.\n\nYour notes stay on your PC. Inkling collects nothing and sends nothing.",
+      "author": {
+        "name": "1morr",
+        "url": "https://github.com/1morr"
+      },
+      "homepage": "https://github.com/1morr/Inkling",
+      "tags": [
+        "notes",
+        "markdown",
+        "quick-capture",
+        "note-taking",
+        "scratchpad"
+      ],
+      "categories": [
+        "productivity"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9NDGWN4JTXHH"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/1morr/inkling/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/1morr/inkling/screenshots/01-top-level-commands.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/1morr/inkling/screenshots/02-quick-capture.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/1morr/inkling/screenshots/03-note-list.png"
+      ],
+      "addedAt": "2026-09-04"
+    },
     {
       "id": "8lwxpg.process-killer",
       "title": "Process Killer",
@@ -42,6 +76,41 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/8lwxpg/process-killer/screenshots/02-port.png"
       ],
       "addedAt": "2026-05-10"
+    },
+    {
+      "id": "adamduda.tex-snippets",
+      "title": "Tex Snippets",
+      "shortDescription": "Write LaTeX math formulas without leaving the launcher. Type a snippet, see it rendered. Copy it as Unicode, source, or a typeset image.",
+      "description": "TexSnippets integrates with the Command Palette to turn LaTeX math formulas into easily accessible PNG snippets and Unicode equivalents.\n\nType a snippet and every keystroke is parsed and rendered to a Unicode approximation, so \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} becomes (-b ± √(b² - 4ac))/(2a) as you go. Malformed input shows the syntax error instead of a preview.\n\nFEATURES\n\n- Live Unicode preview: a small purpose-built parser checks braces, math delimiters, \\left / \\right pairs and environments, then maps known control sequences to their Unicode equivalents. No LaTeX installation needed.\n\n- Three ways to copy: the Unicode preview, the raw LaTeX source, or a properly typeset PNG placed on the clipboard in two formats at once - PNG with transparency for browsers, Slack, Word and Notion, and a white-flattened bitmap for older image editors.\n\n- Search-box suggestions: type LaTeX straight into the Command Palette search box and \"LaTeX preview\" and \"LaTeX as PNG\" appear without opening the extension first.\n\nREQUIREMENTS\n\nWindows 10 version 2004 (build 19041) or later, x64 or ARM64, with PowerToys Command Palette.\n\nThe Unicode preview works on its own. Copying as PNG additionally needs a LaTeX installation providing latex and dvipng - TeX Live and MiKTeX both work, and are found automatically on PATH or in their usual install locations.\n\nOpen source under the MIT licence.",
+      "author": {
+        "name": "Adam Duda",
+        "url": "https://github.com/AdamDuda1"
+      },
+      "homepage": "https://github.com/AdamDuda1/cmdpal-tex-snippets",
+      "tags": [
+        "latex",
+        "math",
+        "unicode",
+        "clipboard",
+        "png"
+      ],
+      "categories": [
+        "productivity",
+        "developer-tools",
+        "education"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9P3JPCRFR1BZ"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/adamduda/tex-snippets/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/adamduda/tex-snippets/screenshots/01-main.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/adamduda/tex-snippets/screenshots/02-example.png"
+      ],
+      "addedAt": "2026-09-04"
     },
     {
       "id": "advaith.currency-converter",
